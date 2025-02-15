@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyjuntools"
+version = "0.1.0"
+authors = [
+    { name="Jun Allard", email="jun.allard@uci.edu" },
+]
+description = "Convience tools Jun uses in python workflow"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/allardjun/pyJunTools"
+"Bug Tracker" = "https://github.com/allardjun/pyJunTools/issues"
+
